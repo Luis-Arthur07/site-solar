@@ -248,6 +248,15 @@ header ul li a:hover {
     padding: 15px;
     font-size: 1.1rem;
     cursor: pointer;
+    padding: 12px 30px;    /* Tamanho interno (altura e largura) */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    width: 250px;          /* Largura fixa pra todos ficarem iguais */
+    text-align: center;
+    transition: background 0.3s;
 }
 
 .form-message {
@@ -337,40 +346,3 @@ footer p {
     transition: transform 0.3s ease;
 }
 
-.btn whatsapp-btn{
-    padding: 12px 30px;    /* Tamanho interno (altura e largura) */
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    width: 250px;          /* Largura fixa pra todos ficarem iguais */
-    text-align: center;
-    transition: background 0.3s;
-}
-
-
-a{
-    .btn whatsapp-btn{
-    padding: 12px 30px;    /* Tamanho interno (altura e largura) */
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    width: 250px;          /* Largura fixa pra todos ficarem iguais */
-    text-align: center;
-    transition: background 0.3s;
-}
-
-.contact-info{
-    padding: 12px 30px;    /* Tamanho interno (altura e largura) */
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    width: 250px;          /* Largura fixa pra todos ficarem iguais */
-    text-align: center;
-    transition: background 0.3s;
-}
